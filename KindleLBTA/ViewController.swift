@@ -31,7 +31,8 @@ class ViewController: UITableViewController {
         let book1 = Book(title: "Steve Jobs", author: "Walter Isaacson", pages: pages)
         let book2 = Book(title: "Bill Gates: A Biography", author: "Michael Becraft", pages: [
             Page(number: 1, text: "Bill page 1"),
-            Page(number: 2, text: "Bill page 2")
+            Page(number: 2, text: "Bill page 2"),
+            Page(number: 3, text: "Bill page 3")
             ])
         
         self.books = [book1, book2]
